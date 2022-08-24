@@ -1,0 +1,39 @@
+.menu {
+    /* max-width: 500px; */
+
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid ;
+    background-image: url(../images/px6.jpg);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.card-title {
+    font-size: large;
+    text-align: center;
+}
+
+.card-precio {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
